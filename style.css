@@ -4,81 +4,108 @@
     box-sizing: border-box;
 }
 
-.flexed {
+.container-flexed {
+    background-color: black;
+    color: white;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 1.5em;
 }
 
-.container {
-    width: 880px;
-    margin: 0 auto;
+.flexed {
+    align-items: center;
+    display: flex;
+    justify-content: space-between
+}
+
+ul li {
+    justify-content: center;
 }
 
 .flex-start {
-    align-items: flex-start;
+
 }
 
-.column {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5em;
-}
+.column-main {
 
-header {
-    background-color: black;
-    color: white;
-    padding: 10px 0;
-    margin-bottom: 1.5em;
-}
-
-header ul {
-    list-style: none;
-}
-
-button {
-    background-color: turquoise;
-    color: white;
-}
-
-main {
-    background-color: white;
-    min-height: 400px;
-    flex: 2;
 }
 
 .card {
-    background-color: lightblue;
-    min-height: 300px;
+
 }
 
-img {
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    position: relative;
-    left: 30px;
-    top: 20px;
+#avatar {
+
+}
+
+.card-content {
+
+}
+
+.area {
+
+}
+
+.area img {
+
+}
+
+#city {
+
+}
+
+.info {
+
+}
+
+.info img {
+
+}
+
+a {
+
 }
 
 .education {
-    background-color: darkcyan;
-    min-height: 300px;
+
 }
 
-aside {
-    background-color: white;
-    min-height: 400px;
-    flex: 1;
+#text {
+
 }
 
-.requests1 {
-    background-color: yellow;
-    min-height: 200px;
+.column {
+
 }
 
-.connections1 {
-    background-color: yellowgreen;
-    min-height: 200px;
+.aside-header {
+
+}
+
+#number2 {
+
+}
+
+.requests {
+
+}
+
+.request {
+
+}
+
+.accept-decline {
+
+}
+
+#button500 {
+
+}
+
+.connections {
+
+}
+
+.connection {
+    
 }
